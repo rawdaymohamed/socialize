@@ -1,9 +1,20 @@
 import Link from "next/link";
 import React from "react";
 import MobileMenu from "./MobileMenu";
-import { FaHome, FaRegUserCircle, FaUserFriends } from "react-icons/fa";
+import {
+  FaHome,
+  FaRegUserCircle,
+  FaSearch,
+  FaUserFriends,
+} from "react-icons/fa";
 import { CiCirclePlus } from "react-icons/ci";
-import { ClerkLoaded, ClerkLoading, SignedIn, SignedOut, UserButton } from "@clerk/nextjs";
+import {
+  ClerkLoaded,
+  ClerkLoading,
+  SignedIn,
+  SignedOut,
+  UserButton,
+} from "@clerk/nextjs";
 import { IoPeople } from "react-icons/io5";
 import { FaRegMessage } from "react-icons/fa6";
 import { IoMdNotifications } from "react-icons/io";
@@ -18,9 +29,9 @@ const Navbar = () => {
         </Link>
       </div>
       {/* Center */}
-      <div className="hidden md:block w-[50%]">
+      <div className="hidden md:flex items-center gap-8 w-[50%]">
         {/* Links */}
-        <div className="flex gap-8 text-gray-600">
+        <div className="flex items-center gap-8 text-gray-600">
           <Link href="/" className="flex items-center gap-2">
             <FaHome className="size-5" />
             <span>Homepage</span>
@@ -34,6 +45,14 @@ const Navbar = () => {
             <span>Stories</span>
           </Link>
         </div>
+        <div className="hidden xl:flex items-center gap-3 px-3 py-2 bg-slate-100 rounded-full">
+          <FaSearch className="size-5 text-gray-600" />
+          <input
+            type="text"
+            placeholder="Search..."
+            className="outline-none bg-transparent"
+          />
+        </div>
       </div>
       {/* Right */}
       <div className="w-[30%] flex items-center gap-4 xl:gap-8 justify-end">
@@ -46,13 +65,15 @@ const Navbar = () => {
               <IoPeople className="size-6 text-gray-600" />
               <FaRegMessage className="size-4 text-gray-600" />
               <IoMdNotifications className="size-6 text-gray-600" />
-              <UserButton/>
+              <UserButton />
             </div>
           </SignedIn>
           <SignedOut>
             <div className="flex items-center gap-2 text-gray-600">
               <FaRegUserCircle className="size-5" />
-              <Link href="/sign-in" className="text-sm">Login/Register</Link>
+              <Link href="/sign-in" className="text-sm">
+                Login/Register
+              </Link>
             </div>
           </SignedOut>
         </ClerkLoaded>
