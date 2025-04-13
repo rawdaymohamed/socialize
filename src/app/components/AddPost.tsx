@@ -10,7 +10,7 @@ import { RiVideoAddLine } from "react-icons/ri";
 
 const AddPost = () => {
   return (
-    <div className="p-4 bg-white rounded-lg flex justify-between gap-6 text-sm">
+    <div className="p-4 bg-white shadow-md rounded-lg flex justify-between gap-6 text-sm">
       {/* Avatar */}
       <div className="">
         <Image
