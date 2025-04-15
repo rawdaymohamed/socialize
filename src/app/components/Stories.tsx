@@ -9,8 +9,8 @@ const Stories = () => {
         <div className="flex flex-col gap-2 items-center cursor-pointer py-2">
           <Image
             src="/abstract-1.jpg"
-            width={80}
-            height={80}
+            width={100}
+            height={100}
             className="w-20 h-20 rounded-full object-cover ring-2 ring-blue-400"
             alt="abstract story"
           />
@@ -20,8 +20,8 @@ const Stories = () => {
         <div className="flex flex-col gap-2 items-center cursor-pointer">
           <Image
             src="https://images.pexels.com/photos/1193743/pexels-photo-1193743.jpeg?auto=compress&cs=tinysrgb&w=400"
-            width={80}
-            height={80}
+            width={100}
+            height={100}
             className="w-20 h-20 rounded-full object-cover ring-2 ring-blue-400"
             alt="abstract story"
           />
@@ -31,8 +31,8 @@ const Stories = () => {
         <div className="flex flex-col gap-2 items-center cursor-pointer">
           <Image
             src="https://images.unsplash.com/photo-1742787584125-d94d44334047?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwxNXx8fGVufDB8fHx8fA%3D%3D"
-            width={80}
-            height={80}
+            width={100}
+            height={100}
             className="w-20 h-20 rounded-full object-cover ring-2 ring-blue-400"
             alt="abstract story"
           />
@@ -42,8 +42,8 @@ const Stories = () => {
         <div className="flex flex-col gap-2 items-center cursor-pointer">
           <Image
             src="https://images.unsplash.com/photo-1742787584125-d94d44334047?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwxNXx8fGVufDB8fHx8fA%3D%3D"
-            width={80}
-            height={80}
+            width={100}
+            height={100}
             className="w-20 h-20 rounded-full object-cover ring-2 ring-blue-400"
             alt="abstract story"
           />
@@ -53,8 +53,8 @@ const Stories = () => {
         <div className="flex flex-col gap-2 items-center cursor-pointer">
           <Image
             src="https://images.unsplash.com/photo-1742787584125-d94d44334047?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwxNXx8fGVufDB8fHx8fA%3D%3D"
-            width={80}
-            height={80}
+            width={100}
+            height={100}
             className="w-20 h-20 rounded-full object-cover ring-2 ring-blue-400"
             alt="abstract story"
           />
@@ -64,8 +64,8 @@ const Stories = () => {
         <div className="flex flex-col gap-2 items-center cursor-pointer">
           <Image
             src="https://images.unsplash.com/photo-1742787584125-d94d44334047?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwxNXx8fGVufDB8fHx8fA%3D%3D"
-            width={80}
-            height={80}
+            width={100}
+            height={100}
             className="w-20 h-20 rounded-full object-cover ring-2 ring-blue-400"
             alt="abstract story"
           />
@@ -75,8 +75,8 @@ const Stories = () => {
         <div className="flex flex-col gap-2 items-center cursor-pointer">
           <Image
             src="https://images.unsplash.com/photo-1742787584125-d94d44334047?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwxNXx8fGVufDB8fHx8fA%3D%3D"
-            width={80}
-            height={80}
+            width={100}
+            height={100}
             className="w-20 h-20 rounded-full object-cover ring-2 ring-blue-400"
             alt="abstract story"
           />
@@ -86,8 +86,8 @@ const Stories = () => {
         <div className="flex flex-col gap-2 items-center cursor-pointer">
           <Image
             src="https://images.unsplash.com/photo-1742787584125-d94d44334047?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwxNXx8fGVufDB8fHx8fA%3D%3D"
-            width={80}
-            height={80}
+            width={100}
+            height={100}
             className="w-20 h-20 rounded-full object-cover ring-2 ring-blue-400"
             alt="abstract story"
           />
@@ -97,8 +97,8 @@ const Stories = () => {
         <div className="flex flex-col gap-2 items-center cursor-pointer">
           <Image
             src="https://images.unsplash.com/photo-1742787584125-d94d44334047?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwxNXx8fGVufDB8fHx8fA%3D%3D"
-            width={80}
-            height={80}
+            width={100}
+            height={100}
             className="w-20 h-20 rounded-full object-cover ring-2 ring-blue-400"
             alt="abstract story"
           />
@@ -108,8 +108,8 @@ const Stories = () => {
         <div className="flex flex-col gap-2 items-center cursor-pointer">
           <Image
             src="https://images.unsplash.com/photo-1742787584125-d94d44334047?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwxNXx8fGVufDB8fHx8fA%3D%3D"
-            width={80}
-            height={80}
+            width={100}
+            height={100}
             className="w-20 h-20 rounded-full object-cover ring-2 ring-blue-400"
             alt="abstract story"
           />
@@ -119,8 +119,8 @@ const Stories = () => {
         <div className="flex flex-col gap-2 items-center cursor-pointer">
           <Image
             src="https://images.unsplash.com/photo-1742787584125-d94d44334047?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwxNXx8fGVufDB8fHx8fA%3D%3D"
-            width={80}
-            height={80}
+            width={100}
+            height={100}
             className="w-20 h-20 rounded-full object-cover ring-2 ring-blue-400"
             alt="abstract story"
           />
@@ -130,8 +130,8 @@ const Stories = () => {
         <div className="flex flex-col gap-2 items-center cursor-pointer">
           <Image
             src="https://images.unsplash.com/photo-1742787584125-d94d44334047?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwxNXx8fGVufDB8fHx8fA%3D%3D"
-            width={80}
-            height={80}
+            width={100}
+            height={100}
             className="w-20 h-20 rounded-full object-cover ring-2 ring-blue-400"
             alt="abstract story"
           />
