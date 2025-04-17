@@ -4,6 +4,7 @@ import React from "react";
 import { FaRegComment, FaRegHeart } from "react-icons/fa";
 import { IoMdShareAlt } from "react-icons/io";
 import { MdOutlineMoreHoriz } from "react-icons/md";
+import Comments from "./Comments";
 
 const Post = () => {
   return (
@@ -40,7 +41,7 @@ const Post = () => {
         </p>
       </div>
       {/* Actions */}
-      <div className="flex items-center justify-between text-sm">
+      <div className="flex items-center justify-between text-sm my-4">
         <div className="flex gap-8">
           <div className="flex gap-2 text-gray-700 cursor-pointer">
             <FaRegHeart className=" size-5" />
@@ -62,6 +63,7 @@ const Post = () => {
           </div>
         </div>
       </div>
+      <Comments />
     </div>
   );
 };
