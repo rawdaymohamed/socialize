@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import React from 'react'
 import { FaRegComment, FaRegHeart } from 'react-icons/fa'
-import { IoMdShareAlt } from 'react-icons/io'
+
 import { MdOutlineEmojiEmotions, MdOutlineMoreHoriz } from 'react-icons/md'
 
 const Comments = () => {
