@@ -8,7 +8,7 @@ const ProfileCard = () => {
         <Image fill src="/abstract-1.jpg" className='rounded-md object-cover' alt='abstract' />
         <Image src="/abstract-2.jpg" width={48} height={48} className='rounded-full w-12 h-12  object-cover absolute left-0 right-0 m-auto -bottom-6 ring-1 ring-white z-10' alt='abstract' />
       </div>
-      <div className='h-32 flex flex-col gap-2 items-center'>
+      <div className='h-32 flex flex-col gap-3 items-center'>
         <h1 className='font-semibold'>Rawda Yasser</h1>
         <div className='flex items-center gap-5'>
           <div className='flex gap-2'>
@@ -18,7 +18,7 @@ const ProfileCard = () => {
           </div>
         </div>
           <span className='text-gray-800 font-semibold text-xs'>500 followers</span>
-          <button className='bg-blue-600 text-white py-2 px-3 rounded-md hover:bg-blue-800 transition cursor-pointer'>My Profile</button>
+          <button className='bg-blue-600 text-white py-2 px-3 text-xs rounded-md hover:bg-blue-800 transition cursor-pointer'>My Profile</button>
       </div>
     </div>
   )
