@@ -37,8 +37,8 @@ const UserInfoCard = ({ userId }: { userId: string }) => {
             <FaLink className='text-gray-700 size-4' />
             <a href='https://github.com/rawdaymohamed' className='text-blue-500 font-medium'>rawdayasser.com</a>
           </div>
-          <div className='flex items-center gap-2'><FaCalendarAlt className='text-gray-700 size-4' />Joined Apr 18, 2025</div>
         </div>
+          <div className='flex items-center gap-2'><FaCalendarAlt className='text-gray-700 size-4' />Joined Apr 18, 2025</div>
       </div>
       <button className='bg-blue-500 text-white text-sm rounded-md px-3 py-2 cursor-pointer'>Follow</button>
       <span className='text-red-500 self-end cursor-pointer text-xs'>Block User</span>
