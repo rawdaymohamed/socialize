@@ -27,7 +27,7 @@ const Ad = ({ size }: { size: "sm" | "md" | "lg" }) => {
                                 : "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorum dolore ea assumenda illum repellat quae quidem iusto, incidunt deleniti sapiente aspernatur tempore."
                     }
                 </p>
-                <button className='bg-gray-200 text-gray-500 p-2 text-xs rounded-lg'>Learn more</button>
+                <button className='bg-gray-100 text-gray-500 p-2 text-xs rounded-lg cursor-pointer'>Learn more</button>
             </div>
         </div>
     )
