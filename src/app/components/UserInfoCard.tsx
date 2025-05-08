@@ -5,7 +5,7 @@ import { IoIosSchool } from 'react-icons/io'
 import { IoLocationSharp } from 'react-icons/io5'
 import { MdWork } from 'react-icons/md'
 
-const UserInfoCard = ({ userId }: { userId: string }) => {
+const UserInfoCard = () => {
   return (
     <div className="p-4 bg-white shadow-md rounded-lg text-sm flex flex-col gap-5">
       <div className='flex items-center justify-between font-medium text-gray-700'>
@@ -38,7 +38,7 @@ const UserInfoCard = ({ userId }: { userId: string }) => {
             <a href='https://github.com/rawdaymohamed' className='text-blue-500 font-medium'>rawdayasser.com</a>
           </div>
         </div>
-          <div className='flex items-center gap-2'><FaCalendarAlt className='text-gray-700 size-4' />Joined Apr 18, 2025</div>
+        <div className='flex items-center gap-2'><FaCalendarAlt className='text-gray-700 size-4' />Joined Apr 18, 2025</div>
       </div>
       <button className='bg-blue-500 text-white text-sm rounded-md px-3 py-2 cursor-pointer'>Follow</button>
       <span className='text-red-500 self-end cursor-pointer text-xs'>Block User</span>

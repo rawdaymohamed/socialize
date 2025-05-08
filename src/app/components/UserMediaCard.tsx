@@ -2,7 +2,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
 
-const UserMediaCard = ({ userId }: { userId: string }) => {
+const UserMediaCard = () => {
   return (
     <div className="p-4 bg-white shadow-md rounded-lg text-sm flex flex-col gap-5">
       <div className='flex items-center justify-between font-medium text-gray-700'>
